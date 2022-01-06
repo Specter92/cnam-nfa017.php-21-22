@@ -36,3 +36,9 @@ $referundum = null;
 echo $referundum;
 echo '<br>';
 
+//supprimer une variable
+unset($referundum);
+
+//provoque une erreur car la variable est deréférencer 
+echo $referundum;
+echo '<br>';
