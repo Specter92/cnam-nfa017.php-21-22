@@ -10,7 +10,7 @@ $cartes = ["AS", "carreau", "valet", "pique", "treffle"];
 dump($cartes);
 
 // Tirez un nombre "n" au hasard, compris entre 1 et 5 inclus.
-$tirerCarte = array_splice($cartes,0, 5);
+$tirerCarte = array_splice($cartes,0, 4);
 dump($tirerCarte);
 
 // A l'aide de ce nombre, retirer la n-ieme carte de la main.
@@ -18,5 +18,8 @@ $eniemeCarte = array_pop($tirerCarte);
 
 // Afficher le nom de la carte qui a été retirée.
 echo "la carte {$eniemeCarte} a été retiré <br>\n";
+
+dump($cartes);
+
 
 
